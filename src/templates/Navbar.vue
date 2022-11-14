@@ -28,6 +28,20 @@
               <a class="nav-link" aria-current="page" href="about">About <span class='bi-arrow-clockwise'></span></a>
             </li>
           </ul>
+          <ul class="nav justify-content-end">
+            <li>
+              <a class="nav-link disabled" aria-current="page" href="ships">clock goes here</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+            </li>
+          </ul>
         </div>
       </div>
 </template>

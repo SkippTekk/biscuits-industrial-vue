@@ -1,7 +1,20 @@
 <template>
-  <Title />
-  <p></p>
-  url is {{ $route.params.id }}
+  <html lang="en">
+    <Title />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="./css/bootstrap.css" rel="stylesheet">
+
+   <body>
+    <Biscuits />
+<!-- script goes here from mike-->
+
+
+<!-- Footsie for the footer-->
+
+ </body>
+     </html>
 </template>
 <script>
 // @ is an alias to /src

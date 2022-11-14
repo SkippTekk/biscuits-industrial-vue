@@ -7,7 +7,7 @@
     </head>
     <body>
         <Biscuits />
-      <nav class='navbar navbar-expand-lg bg-light'>
+      <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
         <Navbar />
       </nav>
         <Announcment />
@@ -44,7 +44,7 @@ import RightSection from '@/templates/RightSection.vue'
 import Footer from '@/content/Footer.vue'
 
 export default {
-  name: 'HomeView',
+  name: 'Home',
   components: {
     Biscuits,
     Head,
