@@ -1,4 +1,4 @@
-# Biscuits-Industral-EJS
+# biscuits-industrial-vue
 Website project for Eve Online.
 
 Temp website will be located at [My website](https://skipptekk.com) Once i feel it's ready to be "open" to the public.
