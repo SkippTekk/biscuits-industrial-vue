@@ -1,0 +1,3 @@
+<template>
+    Biscuits Industrial
+</template>

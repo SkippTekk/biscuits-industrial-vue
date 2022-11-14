@@ -1,0 +1,24 @@
+<template>
+    
+    <footer class="container text-center">
+        <p>
+      Noob made product, <a href="https://evewho.com/pilot/I+like+biscuits" target="_blank">I like Biscuits</a>
+        </p>
+        <p>Calculations and math helped with Hulk</p>
+        <p>
+            Database Provided by <a href="https://www.fuzzwork.co.uk/" target="_blank">Steve 'fuzzysteve' Ronuken</a>
+        </p>
+        <p>
+            Database on <a href="https://www.eveonline.com/signup/?invc=a9af4d7c-7d69-4d5c-bea7-3c4a1ec56493" target="_blank">Eve Online</a> is 2020-12-08 <a href="https://developers.eveonline.com/resource/resources" target="_blank">1.0</a> Invasion
+        </p>
+        <p>
+            Database Dump files are located in <a href="https://www.fuzzwork.co.uk/dump/" target="_blank"> Here from Fuzzysteve</a>
+        </p>
+        <p>
+            Discord widget by <b>joshschmille</b> <a href="https://github.com/joshschmille/discord-widget" target="_blank"> Here </a>
+        </p>
+        <p>
+            Github of where the <a target="__blank" href="https://github.com/SkippTekk/Biscuits-Industrial-EJS"> Coding</a> shall be shared!
+        </p>
+  </footer>
+</template>
