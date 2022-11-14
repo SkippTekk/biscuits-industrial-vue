@@ -1,5 +1,7 @@
 <template>
-  ships information goes here
+  <Title />
+  <p></p>
+  url is {{ $route.params.id }}
 </template>
 <script>
 // @ is an alias to /src
