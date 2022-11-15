@@ -10,19 +10,19 @@
               <a class="nav-link" aria-current="page" href="ships">Ship Manufacuring  <span class='bi-arrow-clockwise'></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Citadel Manufacturing <span class='bi-x-lg'></span></a>
+              <a class="nav-link disabled" aria-current="page" href="#">Citadel Manufacturing <span class='bi-x-lg'></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Reprocessing <span class='bi-x-lg'></span></a>
+              <a class="nav-link disabled" aria-current="page" href="#">Reprocessing <span class='bi-x-lg'></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Ship Fitting <span class='bi-x-lg'></span></a>
+              <a class="nav-link disabled" aria-current="page" href="#">Ship Fitting <span class='bi-x-lg'></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Jump Gate Refuel <span class='bi-x-lg'></span></a>
+              <a class="nav-link disabled" aria-current="page" href="#">Jump Gate Refuel <span class='bi-x-lg'></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">API For Geeks <span class='bi-x-lg'></span></a>
+              <a class="nav-link disabled" aria-current="page" href="#">API For Geeks <span class='bi-x-lg'></span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="about">About <span class='bi-arrow-clockwise'></span></a>
@@ -30,18 +30,29 @@
           </ul>
           <ul class="nav justify-content-end">
             <li>
-              <a class="nav-link disabled" aria-current="page" href="ships">clock goes here</a>
+              <a class="nav-link disabled" aria-current="page" href="#"><Clock /></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+              <a class="nav-link disabled" aria-current="page" href="#">Login/register</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+              <a class="nav-link disabled" aria-current="page" href="#">Log out</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-current="page" href="ships">Login/register</a>
+              <a class="nav-link disabled" aria-current="page" href="#">Toon Access</a>
             </li>
           </ul>
         </div>
       </div>
 </template>
+
+<script>
+import Clock from '@/include/clock.js'
+
+export default {
+  name: 'HomeNavbar',
+  components: {
+    Clock
+  }
+}
+</script>

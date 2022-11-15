@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<link href="./css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
 
    <body>
     <Biscuits />
@@ -20,12 +20,13 @@
 // @ is an alias to /src
 import Biscuits from '@/templates/Biscuits.vue'
 import Title from '@/templates/Title.vue'
-
+import Navbar from '@/Ships/Navbar.vue'
 export default {
-  name: 'HomeView',
+  name: 'Ships',
   components: {
     Title,
-    Biscuits
+    Biscuits,
+    Navbar
   }
 }
 </script>

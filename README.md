@@ -27,9 +27,6 @@ All the Packages that im planning to use
 [Core JS](https://www.npmjs.com/package/core-js)
 ``npm i core-js --save``
 
-[dotenv](https://www.npmjs.com/package/dotenv)
-``npm i dotenv``
-
 [mariadb](https://www.npmjs.com/package/mariadb)
 ``npm i mariadb``
 

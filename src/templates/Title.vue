@@ -1,3 +1,3 @@
 <template>
-    Biscuits Industrial
+    <title>Biscuits Industrial</title>
 </template>
