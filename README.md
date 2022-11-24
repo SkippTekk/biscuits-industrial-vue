@@ -26,15 +26,3 @@ All the Packages that im planning to use
 
 [Core JS](https://www.npmjs.com/package/core-js)
 ``npm i core-js --save``
-
-[mariadb](https://www.npmjs.com/package/mariadb)
-``npm i mariadb``
-
-
-
-Creating a user in the database
-
-CREATE USER 'username here'@'localhost' IDENTIFIED BY 'password goes here';
-CREATE database eveproject;
-GRANT ALL PRIVILEGES ON eveproject.* TO 'username here'@'localhost' WITH GRANT OPTION;
-FLUSH PRIVILEGES;
