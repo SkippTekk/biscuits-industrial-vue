@@ -8,11 +8,10 @@
 
    <body>
     <Biscuits />
-    <Announcement />
-      <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <Navbar />
       </nav>
-        <Announcment />
+        <Announcement />
       <section class='container-fluid'>
         <div class='row'>
           <div class='col order-1'>

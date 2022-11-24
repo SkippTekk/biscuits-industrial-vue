@@ -1,9 +1,8 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
 
-import "../public/css/bootstrap.css";
-import "../public/js/bootstrap.bundle.js";
-import "../public/bootstrap-icons-1.10.2/bootstrap-icons.css"
+import "../public/css/mdb.min.css";
+import "../public/js/mdb.min.js";
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router).mount('#app');

@@ -3,6 +3,7 @@ import Home from '@/views/Home.vue'
 import About from '@/views/About.vue'
 import Ships from '@/views/Ships.vue'
 import ShipsData from '@/templates/ShipsData.vue'
+import Api from '@/views/Api.vue'
 import PageNotFound from '@/content/PageNotFound.vue'
 
 const routes = [
@@ -22,9 +23,9 @@ const routes = [
     component: Ships
   },
   {
-    path: '/ships/:id',
-    name:'ship',
-    component: ShipsData
+    path: '/api',
+    name: 'api',
+    component: Api
   },
   {
     path: '/:catchAll(.*)',
