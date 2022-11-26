@@ -19,7 +19,7 @@
         <a class="nav-link disabled">Reprocessing <i class="fas fa-times"></i></a>
         <a class="nav-link disabled">Ship Fitting <i class="fas fa-times"></i></a>
         <a class="nav-link disabled">Jump Gate Refuel <i class="fas fa-times"></i></a>
-        <a class="nav-link" href="api">API for Geeks <i class="fas fa-sync"></i></a>
+        <a class="nav-link" target="_blank" href="http://localhost:8081/api">API for Geeks <i class="fas fa-sync"></i></a>
         <a class="nav-link" href="about">About <i class="fas fa-sync"></i></a>
       </div>
     </div>

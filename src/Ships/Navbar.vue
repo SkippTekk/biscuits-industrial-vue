@@ -16,15 +16,15 @@
         <ul class="navbar-nav">
       <!-- Dropdown -->
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Faction Name
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-mdb-toggle="dropdown" aria-expanded="false">Faction Name
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <li>
-            <a class="dropdown-item" href="#">Ship Class
+            <a class="dropdown-item">Ship Class
             </a>
             <ul class="dropdown-menu dropdown-submenu">
               <li>
-                <a class="dropdown-item" href="#">Ship Type</a>
+                <a class="dropdown-item">Ship Type</a>
                 <ul class="dropdown-menu dropdown-submenu">
                   <li>
                     <a class="dropdown-item" href="#">Ship Name</a>
@@ -61,3 +61,22 @@ left: auto;
 display: block;
 }
 </style>
+
+<script>
+const axios = require('axios');
+
+// Make a request for a user with a given ID
+axios.get('http://localhost:8081/api/navbar')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+
+  })
+  .catch(function (error) {
+    // handle error
+    console.log(error);
+  })
+  .then(function () {
+    // always executed
+  });
+</script>

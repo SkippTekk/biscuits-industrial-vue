@@ -9,9 +9,7 @@
       <nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
         <Navbar />
       </nav>
-        <div class="container">
           <Announcment />
-        </div>
       <section class='container-fluid'>
         <div class='row'>
           <div class='col order-1'>
